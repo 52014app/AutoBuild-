@@ -108,7 +108,7 @@ Firmware-Diy_Main() {
 	[[ ${INCLUDE_AutoBuild_Features} == true ]] && {
 		Copy Scripts/AutoBuild_Tools.sh package/base-files/files/bin
 		Copy Scripts/AutoUpdate.sh package/base-files/files/bin
-		AddPackage git lean luci-app-autoupdate Hyy2001X main
+		AddPackage git lean luci-app-autoupdate 52014app main
 	}
 	[[ ${INCLUDE_Argon} == true ]] && {
 		case "${OP_Maintainer},${OP_BRANCH}" in
