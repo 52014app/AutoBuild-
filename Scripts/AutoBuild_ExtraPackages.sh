@@ -21,6 +21,7 @@ immortalwrt,master)
 	AddPackage git other luci-app-adblock-plus small-5 master
 	AddPackage git other luci-app-dnsfilter kiddin9 main
 	AddPackage git other openwrt-passwall xiaorouji main
+	AddPackage git other luci-theme-argon 52014app master
 ;;
 esac
 
