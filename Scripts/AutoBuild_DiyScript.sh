@@ -18,10 +18,8 @@ Diy_Core() {
 Firmware-Diy() {
 	case "${TARGET_PROFILE}" in
 	d-team_newifi-d2)
-		sed -i 's/192.168.1.1/192.168.99.1/g' package/base-files/files/bin/config_generate
-		sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 		Copy CustomFiles/mac80211.sh package/kernel/mac80211/files/lib/wifi
-		Copy CustomFiles/system_${TARGET_PROFILE} package/base-files/files/etc/config system
+		Copy CustomFiles/system package/base-files/files/etc/config system
 	;;
 	esac
 }
