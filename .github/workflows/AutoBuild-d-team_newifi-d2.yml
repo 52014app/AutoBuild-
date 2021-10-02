@@ -124,7 +124,7 @@ jobs:
 
     - name: Compile
       run: |
-        export Compile_Result=false
+        export Compile_Result=false 
         cd openwrt
         source $GITHUB_WORKSPACE/Scripts/AutoBuild_Function.sh && Firmware-Diy_Other
         rm -rf ./tmp && ./scripts/feeds install -a > /dev/null 2>&1
