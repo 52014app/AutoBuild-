@@ -3,8 +3,8 @@
 # AutoBuild DiyScript
 
 Diy_Core() {
-	Author=SG6688
-	Default_LAN_IP=192.168.99.1
+	Author=VIP2
+	Default_LAN_IP=192.168.5.1
 	Load_CustomPackages_List=true
 	Short_Firmware_Date=true
 	Checkout_Virtual_Images=false
