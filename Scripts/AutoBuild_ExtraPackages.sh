@@ -16,7 +16,7 @@
 
 ## coolsnowwolf:master 通用软件包
 case "${OP_Maintainer},${OP_BRANCH}" in
-immortalwrt,master)
+52014app/immortalwrt,master)
         AddPackage git other AutoBuild-Packages 52014app master
 	AddPackage git other luci-app-adblock-plus small-5 master
 	AddPackage git other luci-app-dnsfilter kiddin9 main
